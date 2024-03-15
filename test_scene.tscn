@@ -8,3 +8,10 @@ script = ExtResource("1_48b4a")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 script = ExtResource("2_ahk3t")
+
+[node name="Points" type="Label" parent="."]
+offset_left = 25.0
+offset_top = 550.0
+offset_right = 225.0
+offset_bottom = 600.0
+text = "Points: 0"
