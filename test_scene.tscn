@@ -1,6 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://cl8malapb7tv0"]
+[gd_scene load_steps=3 format=3 uid="uid://cl8malapb7tv0"]
 
 [ext_resource type="Script" path="res://Generator.gd" id="1_48b4a"]
+[ext_resource type="Script" path="res://Cursor.gd" id="2_ahk3t"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_48b4a")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+script = ExtResource("2_ahk3t")
